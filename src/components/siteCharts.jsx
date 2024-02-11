@@ -60,13 +60,13 @@ const SiteCharts = ({ siteDetails }) => {
           <Line {...chartConfig} />
           <Collapse
             style={{ marginTop: "20px" }}
-            items={[
-              {
-                key: "all-data",
-                label: "站点详情初始数据",
-                children: <p>{JSON.stringify(siteDetails)}</p>,
-              },
-            ]}
+            // items={[
+            //   {
+            //     key: "all-data",
+            //     label: "站点详情初始数据",
+            //     children: <p>{JSON.stringify(siteDetails)}</p>,
+            //   },
+            // ]}
           />
         </div>
       </div>
